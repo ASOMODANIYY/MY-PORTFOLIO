@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adebisi Abdulsamad A. Portfolio</title>
+  <!-- Font Awesome 6 (free) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+   <link rel="stylesheet" href="style.css">
+  <!-- Google Fonts: Inter & space for headings -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300..700&family=Space+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+ 
+</head>
+<body>
+
+<!-- HEADER -->
+<header>
+  <div class="container">
+    <nav class="navbar">
+      <div class="logo"><a href="#">A.R.</a></div>
+      <div class="nav-links" id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#projects">Work</a>
+        <a href="#skills">Stack</a>
+        <a href="#about">About</a>
+        <a href="#contact" class="btn btn-primary" style="padding:0.6rem 1.6rem;">Resume <i class="fa-regular fa-file-lines"></i></a>
+      </div>
+      <button class="menu-toggle" id="menuToggle" aria-label="menu"><i class="fas fa-bars"></i></button>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <!-- HERO (home) -->
+  <section id="home" class="hero container">
+    <div class="hero-grid">
+      <div class="hero-content">
+        <span class="hero-badge"><i class="fa-solid fa-code"></i> open to work</span>
+        <h1>crafting <span class="hero-highlight">digital</span> experiences with front-end craft</h1>
+        <p class="hero-desc">Hi, I'm Adebisi Abdulsamad  — front‑end developer who turns ideas into smooth, accessible, and beautiful interfaces.</p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary"><i class="fa-regular fa-eye"></i> see projects</a>
+          <a href="#contact" class="btn btn-outline"><i class="fa-regular fa-comment"></i> contact me</a>
+        </div>
+      </div>
+      <div class="hero-avatar">
+        <div class="avatar-box">
+          <i class="fa-regular fa-face-smile"></i>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS (live marquee style) -->
+  <section id="skills" class="skills-showcase">
+    <div class="container">
+      <div class="skills-track">
+        <span class="skill-chip"><i class="fa-brands fa-html5"></i> HTML5</span>
+        <span class="skill-chip"><i class="fa-brands fa-css3-alt"></i> CSS3 / SCSS</span>
+        <span class="skill-chip"><i class="fa-brands fa-js"></i> JavaScript (ES6+)</span>
+        <span class="skill-chip"><i class="fa-brands fa-react"></i> React</span>
+        <span class="skill-chip"><i class="fa-brands fa-figma"></i> Figma</span>
+        <span class="skill-chip"><i class="fa-solid fa-mobile-screen"></i> responsive</span>
+        <span class="skill-chip"><i class="fa-brands fa-git-alt"></i> Git</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS section -->
+  <section id="projects" class="projects container">
+    <h2 class="section-title">selected projects</h2>
+    <div class="projects-grid" id="projectGrid">
+      <!-- card 1 (static, but could be JS-generated) -->
+      <div class="project-card">
+        <div class="project-icon"><i class="fa-regular fa-window-maximize"></i></div>
+        <h3>furniro</h3>
+        <p>Minimalist e‑UI for a furniture brand. Fully responsive, cart logic with pure JS.</p>
+        <div class="project-tags"><span>HTML</span><span>CSS grid</span><span>JS</span></div>
+        <a href="#" class="project-link">live demo <i class="fa-regular fa-arrow-right"></i></a>
+      </div>
+      <div class="project-card">
+        <div class="project-icon"><i class="fa-regular fa-calendar"></i></div>
+        <h3>flowboard</h3>
+        <p>Task manager with drag‑drop, local storage & dark mode — all vanilla JS.</p>
+        <div class="project-tags"><span>JavaScript</span><span>CSS vars</span><span>HTML5</span></div>
+        <a href="#" class="project-link">case study <i class="fa-regular fa-arrow-right"></i></a>
+      </div>
+      <div class="project-card">
+        <div class="project-icon"><i class="fa-regular fa-compass"></i></div>
+        <h3>weather pulse</h3>
+        <p>Weather app using fetch, promises & geolocation. Clean UI with animated icons.</p>
+        <div class="project-tags"><span>API</span><span>async JS</span><span>CSS</span></div>
+        <a href="#" class="project-link">explore <i class="fa-regular fa-arrow-right"></i></a>
+      </div>
+      <div class="project-card">
+        <div class="project-icon"><i class="fa-regular fa-images"></i></div>
+        <h3>snapfolio</h3>
+        <p>Image gallery with lazy loading, lightbox, and flexbox masonry.</p>
+        <div class="project-tags"><span>JS</span><span>accessibility</span><span>CSS</span></div>
+        <a href="#" class="project-link">preview <i class="fa-regular fa-arrow-right"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT + CONTACT combined -->
+  <section id="about" class="about-contact">
+    <div class="container about-grid">
+      <div class="about-text">
+        <h2 class="section-title" style="margin-bottom: 2rem;">about me</h2>
+        <p>I’m Adebisi Abdulsamad, a front-end developer with 4+ years of crafting user interfaces that balance beauty and performance. I believe that great code is just like good design — invisible to the user, but everything feels better.</p>
+        <p>I started as a graphic designer, which taught me color, hierarchy, and spacing. Now I transpose that into semantic HTML, modern CSS (flex, grid, tailwind) and clean JavaScript. I’m based in Austin, TX, but I collaborate worldwide.</p>
+        <div class="social-links">
+          <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="#" aria-label="CodePen"><i class="fa-brands fa-codepen"></i></a>
+          <a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+      </div>
+      <div id="contact">
+        <h2 class="section-title">let’s connect</h2>
+        <ul class="contact-list">
+          <li><i class="fa-regular fa-envelope"></i> <a href="mailto:adebisisamad01@gmail.com">adebisisamad01@gmail.com</a></li>
+          <li><i class="fa-regular fa-phone"></i> <a href="tel:+2349040248627">+234 9040 2486 27</a></li>
+          <li><i class="fa-regular fa-location-dot"></i> Kwara, Nigeria/ remote</li>
+        </ul>
+        <!-- small extra CTA -->
+        <div style="margin-top: 2rem;">
+          <a href="#" class="btn btn-primary" style="border-radius: 60px;"><i class="fa-regular fa-file-pdf"></i> download resume (PDF)</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container">
+    <p>© 2025 Adebisi Abdulsamad — built with HTML, CSS, JavaScript <i class="fa-regular fa-heart" style="color: var(--accent);"></i></p>
+  </div>
+</footer>
+</body>
+</html>
